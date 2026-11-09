@@ -1,0 +1,29 @@
+# Секреты и настройки
+.env
+.env.*
+!.env.example
+
+# Локальные данные и базы
+data/
+*.db
+*.sqlite3
+
+# Резервные копии
+*.backup*
+*.before*
+*.bak
+*.old
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Git
+.git/
+
+# Локальные конфигурации Docker
+compose.yaml
+compose.portainer.yaml
+compose.portainer.yaml.backup*
